@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Welcome to Crystal Collector!</h1>
+                    <p class="lead"> You will see four crystals and each crystal will be assigned a random power value.</p>
+                    <p class="lead">You'll be given a random number at the start of the game.</p>
+                    <p class="lead">Click on a crystal to add power</p>
+                    <p class="lead">Match the power value exactly, and you win the game!</p>
+                    <p class="lead">Don't go over or you'll end up with none</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Can You Match This Power Level?</h5>
+                        <h4><span id="power-level">???</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Current Level:</h5>
+                            <h4><span id="current-power">0</span></h4>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center" <span id="status"></span></h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col" id="crystals">
+
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Wins:</h5>
+                        <p class="card-text"><span id="win"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Fails:</h5>
+                        <p class="card-text"><span id="fail"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
